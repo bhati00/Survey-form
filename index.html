@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dating Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style >
+		#title{
+			text-align: center;
+			margin-top: 15px;
+			margin-bottom: 10px;
+			color: rgb(255, 0, 163);
+			text-shadow: 2px 2px 5px blue;
+			font-size: 50px;
+		}
+		#description{
+          text-align: center;
+          font-size: 20px;
+          color: blue;
+		}
+		#survey-form{
+			color: white;
+			margin-left: 100px;
+			margin-right: 100px;			
+			font-size:20px;
+			background-color: rgb(255, 42, 104);
+		}
+	</style>
+</head>
+<body style="background-image: url(https://thumbs.dreamstime.com/z/love-background-4366397.jpg); background-size: 1800px 1900px;   background-repeat: no-repeat; ">
+   <h1 id="title">ONLINE DATING FORM</h1>
+   <p id="description">find your love online</p>
+   <blockquote class="blockquote text-center" style="font-size: 20px; color: rgb(255, 44, 129);">
+  <p class="mb-0"> ”Romance is the glamour which turns the dust of everyday life into a golden haze.”</p>
+  <footer class="blockquote-footer"> Elinor Glyn<cite title="Source Title"></cite></footer>
+</blockquote>
+<div class="container">
+	<form id="survey-form" class="jumbotron">
+		 <label for="name">Name</label><br>
+         <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+         <label for="email">E-mail</label><br>
+         <input type="text" id="email" name="email" placeholder="Enter your Email"><br><br>
+          <label for="number">Number</label><br>
+         <input type="text" id="number" name="number" placeholder="Enter your contact number"><br><br>
+          <label for="age">Age</label><br>
+         <input type="text" id="Age" name="Age" placeholder="Enter your Age"><br><br>
+
+          <label for="Gender">Gender </label>
+          <br>
+         <select name="Gender" id="Gender" style="color: black;" >
+               <optgroup label="Enter your Gender ">
+                 <option value="Male">Male</option>
+                 <option value="female">Female</option>
+                 <option value="Gay">Gay</option>
+               </optgroup>
+         </select>
+           <br><br>
+         <div style="color: black;">Please select your Preference for the relationship:             
+           <div class="form-check">
+             <input class="form-check-input" type="radio" name="Dating" id="Dating">
+             <label class="form-check-label" for="Dating">
+              Dating
+              </label>
+           </div>
+           <div class="form-check">
+             <input class="form-check-input" type="radio" name=" Committed relationship" id=" Committed relationship">
+             <label class="form-check-label" for=" Committed relationship">
+               Committed relationship
+              </label>
+           </div>
+           <div class="form-check">
+             <input class="form-check-input" type="radio" name="  Casual relationship" id="  Casual relationship">
+             <label class="form-check-label" for=" Casual relationship">
+                Casual relationship
+              </label>
+           </div><br>
+            <div> 
+            	<p>Your partner status</p>
+           <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Student</option>
+             <option value="2">Professional</option>
+            <option value="3">Artist</option>
+           </select>
+           </div><br>
+
+           <div>
+           	 <p>Preference of Characters in your Partner  </p>
+           	<div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Mutual respect">
+              <label class="form-check-label" for="Mutual respect">
+              Mutual respect
+              </label>
+            </div>
+            	<div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Compromise">
+              <label class="form-check-label" for="Compromise">
+              Compromise
+              </label>
+            </div>
+            	<div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Trust">
+              <label class="form-check-label" for="Trust">
+              Trust
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Anger control">
+              <label class="form-check-label" for="Anger control">
+             Anger control
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Understanding">
+              <label class="form-check-label" for="Understanding">
+            Understanding
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Fighting fair">
+              <label class="form-check-label" for="Fighting fair">
+            Fighting fair
+              </label>
+            </div>
+
+           </div>
+       </div><br>
+          
+       <textarea rows="4" cols="50" name="comment" form="usrform" style="color: black;">
+  Please  Describe little bit yourself more</textarea><br><br>
+
+        <button type="button" class="btn btn-success" id="submit" style="font-size: 30px; ">Submit</button><br><br>
+   </form><br><br>
+</div>
+</body>
+</html>
